@@ -1,0 +1,121 @@
+div.continer {
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.continer {
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-1.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.continer div.blackBG {
+  border-radius: 24px;
+  width: 70%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.0823529412);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.continer div.blackBG div.content {
+  width: 23%;
+  height: 75%;
+  background: rgba(88, 130, 193, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 24px;
+  padding-inline: 80px;
+  padding-block: 40px;
+}
+div.continer div.blackBG div.content .logo-text {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+div.continer div.blackBG div.content .form-box .text {
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+div.continer div.blackBG div.content .form-box .input-box .input-row {
+  margin-top: 24px;
+}
+div.continer div.blackBG div.content .form-box .input-box .input-row p {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+div.continer div.blackBG div.content .form-box .input-box .input-row input {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 9px 5px;
+  outline: none;
+  border: none;
+}
+div.continer div.blackBG div.content .form-box .input-box .Forgot-text {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+div.continer div.blackBG div.content .form-box .login-Btn {
+  margin-top: 24px;
+  width: 100%;
+  padding: 9px 5px;
+  border-radius: 8px;
+  background-color: #003465;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+div.continer div.blackBG div.content .login-other {
+  margin-top: 24px;
+}
+div.continer div.blackBG div.content .login-other .other-text {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+}
+div.continer div.blackBG div.content .login-other .other-con {
+  display: flex;
+  margin-top: 24px;
+  gap: 17px;
+}
+div.continer div.blackBG div.content .login-other .other-con .other-item {
+  width: 75px;
+  height: 37px;
+  border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.continer div.blackBG div.content .register-text {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+}
+div.continer div.blackBG div.content .register-text a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
